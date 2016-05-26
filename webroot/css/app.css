@@ -1,0 +1,226 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 3 mai 2016, 20:52:43
+    Author     : jerome
+*/
+
+
+
+
+/*
+Color set
+
+fake white #FEFEFE
+green turtle #00C200
+black grey #333333
+
+
+*/
+:root {
+    --topbar-background: #333333 ;
+    --accent-color: #006;
+}
+/* The rest of the CSS file */
+/*#foo h1 {
+  color: var(--main-color);
+}*/
+
+
+/*TopBar*/
+
+
+.orbit{
+    margin-top: 0.30rem;
+    margin-bottom: 0.3rem;
+}
+
+.top-bar a{
+    color: #fefefe;
+}
+
+.top-bar a:focus,.top-bar a:hover{
+    color: #00C200;
+    background-color: #222;
+}
+
+.top-bar, .top-bar ul{
+    background-color: var(--topbar-background);
+    //overflow: visible;
+}
+
+/* top bar button */
+ul.dropdown.menu button.button{
+    background-color: #00C200;
+    color: #141414;
+}
+ul.dropdown.menu button.button .button:hover {
+    background-color: #00cf00;
+    color: #222;
+}
+
+.top-bar-right .dropdown > a:after {
+    border-color: #FF0000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+/*
+.orbit{
+    height: 25.0rem;
+    display: block;
+}*/
+
+/*
+.slide-content{
+    height: 25.0rem;
+    width: auto;
+}*/
+
+
+/* testing zone */
+/*
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+    background-color: #555555;
+    background: #222222;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background-color: #555555;
+    color: #FFFFFF;
+    background: #222222;
+}*/
+
+.orbit-slide{
+    height : 47.0rem;
+}
+
+.flag{
+    height : 5.0rem;
+    width: 10.0rem;
+    /*margin-left: 10.0rem;
+    margin-right: 10.0rem;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;*/
+}
+
+.flag_language{
+    height : 1.2rem;
+    width: 2.0rem;
+    /*margin-left: 0.70rem;
+    margin-right: 0.70rem;
+    margin-top: 0.7rem;*/
+}
+
+
+
+/*.top-bar-section .has-dropdown > a:after {
+    border-color: #FF0000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}*/
+
+
+/*
+.tab-bar .menu-icon {
+    text-indent: 2.1875rem;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    display: block;
+    padding: 0px;
+    color: #FFF;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+}*/
+
+
+
+
+
+
+
+
+
+/*
+header{
+    color: #222;
+}
+.menu > li > a{
+    color :white;
+}
+
+
+primary{
+    color :white;
+    background-color: pink;
+}
+*/
+
+/*a{
+   color: white;
+   text-decoration: none;
+   line-height: inherit;
+   cursor: pointer;
+}*/
+
+/*.top-bar-section .has-dropdown {
+    //border-color: #FF0000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-color: white rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.button{
+    background-color: #00c200;
+}
+.button:hover{
+    background-color: #4ED920;
+}
+
+
+
+
+#features-turtle {
+    height: 390px;
+    padding: 40px 5px 30px;
+    overflow: hidden;
+}
+#features-turtle {
+    //background: #074E68 url("../img/marquee-stars.svg") repeat scroll 0% 0%;
+    height: 750px;
+    text-align: left;
+    position: relative;
+    padding: 100px 20px 0px;
+}
+
+.top-bar-section .has-dropdown > a:after {
+    border-color: #FF0000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+
+.orbit-caption:over, .orbit-next:over, .orbit-previous:over {
+    color: purple;
+}
+
+.orbit-caption:over, .orbit-next:over, .orbit-previous:over {
+    color: #00c200;
+}
+
+.top-bar-section .has-dropdown > a:after {
+    border-color: rgba(0, 0, 0, 1) transparent transparent;
+}
+
+
+.button.primary {
+    background-color: #2199e8;
+    color: #fefefe; }
+.button.primary:hover, .button.primary:focus {
+    background-color: #147cc0;
+    color: #fefefe; }
+*/
+/*
+The link for css-variable documentation can be found: here.
+
+Example CSS file
+
+:root{
+    --main-color:#06c;
+}
+#foo{
+    color: var(--main-color);
+}
+*/
