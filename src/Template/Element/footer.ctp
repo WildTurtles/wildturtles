@@ -1,7 +1,7 @@
 <div class="callout large secondary">
  <div class="row">
   <div class="large-2 columns">
-      <?= $this->Html->image('wild-turtles_gris_yeuxblanc.svg', ['alt' => __('Turtle'), 'class' => 'width-150']); ?>
+      <?= $this->Html->image('wild-turtles_grey_white_eyes.svg', ['alt' => __('Turtle'), 'class' => 'width-150']); ?>
 
   </div>
   <nav>
