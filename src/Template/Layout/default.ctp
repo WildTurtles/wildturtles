@@ -14,6 +14,9 @@
         echo $this->Html->css('foundation/foundation.css');
         echo $this->Html->css('foundation/foundation.min.css');
         echo $this->Html->css('app.css');
+
+        echo $this->Html->css('http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css');
+        echo $this->Html->script('http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js');
         ?>
     </head>
     <body>

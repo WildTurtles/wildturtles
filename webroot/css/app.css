@@ -8,9 +8,6 @@ and open the template in the editor.
     Author     : jerome
 */
 
-
-
-
 /*
 Color set
 
@@ -30,9 +27,103 @@ black grey #333333
 }*/
 
 
+
+.map{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) ;//!important;
+    background-color: #f1f1f1;
+    padding: 0.01em 16px;
+
+}
+
+#mapid {
+    height: 400px;
+    width: 400px;
+    border: solid;
+    border-width: 0.01rem;
+    border-color: #FEFEFE;
+}
+
+
+.size-100{
+    height: 100px;
+    width: 100px;
+}
+
+
+.width-150{
+    width: 150px;
+}
+
+.size-300{
+    width: 300px;
+}
+
+.padding-top-1{
+    padding-top: 1.0rem;
+}
+.padding-top-2{
+    padding-top: 2.0rem;
+}
+.padding-top-3{
+    padding-top: 3.0rem;
+}
+.padding-top-4{
+    padding-top: 4.0rem;
+}
+.padding-top-5{
+    padding-top: 5.0rem;
+}
+.padding-top-6{
+    padding-top: 6.0rem;
+}
+.padding-top-7{
+    padding-top: 7.0rem;
+}
+
+.thumbnail{
+
+}
+
+.bg-grey{
+    background-color:  #CCCCCC;
+}
+/* antifouc */
+.no-js .top-bar {
+    display: none;
+}
+
+@media screen and (min-width: 40em) {
+    .no-js .top-bar {
+        display: block;
+    }
+
+    .no-js .title-bar {
+        display: none;
+    }
+}
+
+.dropdown > a:after {
+    border-color: #FF0000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.menu .active > a {
+    color: #FF0000;
+    background: #FF0000;
+}
+
 /*TopBar*/
-
-
+/*
+.top-bar {
+    background: #333333;
+    overflow: visible;
+}
+.top-bar {
+    background: #333333;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    /*    margin-bottom: 0;
+        overflow: hidden;*/
+/*position: relative;
+}*/
 .orbit{
     margin-top: 0.30rem;
     margin-bottom: 0.3rem;
@@ -41,7 +132,6 @@ black grey #333333
 .top-bar a{
     color: #fefefe;
 }
-
 .top-bar a:focus,.top-bar a:hover{
     color: #00C200;
     background-color: #222;
@@ -91,7 +181,7 @@ ul.dropdown.menu button.button .button:hover {
 }*/
 
 .orbit-slide{
-    height : 47.0rem;
+    height : 50.0rem;
 }
 
 .flag{
@@ -224,3 +314,39 @@ Example CSS file
     color: var(--main-color);
 }
 */
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: #00C200 transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    right: 5px;
+    margin-top: -2px; }
+
+
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: #00C200 transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    right: 5px;
+    margin-top: -2px; }
+
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: #00C200 transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    right: 5px;
+    margin-top: -2px; }
